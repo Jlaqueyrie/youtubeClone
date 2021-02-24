@@ -10,18 +10,17 @@
     <!-- Bootstrap CSS -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
-    <div class="container" id="pageContainer">
+    <div id="pageContainer">
 
         <header>
-            <button>
+            <button class="navShowHide">
                 <img src="assets/images/icons/menu.png" alt="menu">
             </button>
-        </header>
         <a href="index.php" class="logoContainer">
             <img src="assets/images/logo-youtube.png" alt="logo">
         </a>
@@ -40,8 +39,9 @@
         <a href="profile.php">
         
         
-        <img src="assetes/images/icons/default.png" alt="">
+        <img src="assets/images/default.png" alt="">
         </a>
         <aside>Menui</aside>
         <section id="mainSectionContainer">
             <div class="mainContent">Vidéo
+</header>
