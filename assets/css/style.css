@@ -27,6 +27,7 @@ header{
     box-sizing:border-box;
     z-index: 1;
     align-items: center;
+    justify-content: space-between;
 }
 header .rightIcons img, header button{
 border:none;
@@ -49,6 +50,50 @@ cursor:pointer;
     display:flex;
 }
 
+header .logoContainer{
+    width:70px;
+    height:70px;
+    flex:0 1 auto;
+}
+header .logoContainer img{
+    width:100%;
+    height:100%;
+    margin-left:8px;
+}
 #mainSectionContainer.leftPadding{
     padding-left:240px;
+}
+header .searchBarContainer{
+    flex:1;
+    display:flex;
+    margin:0 40px;
+}
+
+/* barre de recherche */
+
+header .searchBarContainer form{
+    flex:1;
+    display:flex;
+}
+header .searchBarContainer form .searchBar{
+    flex:1;
+    color:#232323;
+    font-size: 10px;
+    max-width: 600px;
+    border-radius: 1px;
+    box-shadow: grey 0px 1px 2px 0px inset;
+    padding: 2px;
+    border-right: none;
+}
+header .searchBarContainer .searchBtn{
+    height:35px;
+    background-color: #f8f8f8;
+    border:1px solid grey;
+    cursor:pointer;
+    width:65px;
+    
+}
+header .searchBarContainer .searchBtn img{
+    height:30px;
+    width:30px;
 }

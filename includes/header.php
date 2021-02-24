@@ -41,6 +41,7 @@
             </div>
 
         </header>
+
             <aside id="sidenavContainer">Menu</aside>
             <section id="mainSectionContainer" class="leftPadding">
             <div class="mainContent">Vidéo
