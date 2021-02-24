@@ -17,7 +17,31 @@
 <body>
     <div class="container" id="pageContainer">
 
-        <header>bouton+loho+barre de recherche+avatar</header>
-        <aside>Menu</aside>
+        <header>
+            <button>
+                <img src="assets/images/icons/menu.png" alt="menu">
+            </button>
+        </header>
+        <a href="index.php" class="logoContainer">
+            <img src="assets/images/logo-youtube.png" alt="logo">
+        </a>
+        <div class="searchBarContainer">
+            <form action="search.php" method="GET">
+                <input type="text" name="term" placeholder="Rechercher ..." class="searchBar">
+
+                <button class="searchBtn"><img src="assets/images/icons/search.png" alt="search button">
+                </button>
+            </form>
+        </div>
+        <div class="rightIcons">
+       <a href="upload.php">
+       <img src="assets/images/icons/upload.png" alt=""></a> 
+        </div>
+        <a href="profile.php">
+        
+        
+        <img src="assetes/images/icons/default.png" alt="">
+        </a>
+        <aside>Menui</aside>
         <section id="mainSectionContainer">
             <div class="mainContent">Vidéo
